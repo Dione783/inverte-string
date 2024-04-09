@@ -1,0 +1,15 @@
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicita a entrada da string ao usuário
+        System.out.print("Informe uma string: ");
+        String input = scanner.nextLine();
+        
+        // Inverte a string
+        String invertedString = inverterString(input);
+        
+        // Exibe a string invertida
+        System.out.println("String invertida: " + invertedString);
+        
+        scanner.close();
+    }
